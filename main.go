@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 	q1405 "solutions/1405-longest-happy-string"
+	q1545 "solutions/1545-kth-bit"
 	q2044 "solutions/2044-count-max-bitwise-subsets"
 	q650 "solutions/650-maximum-swap"
 	"solutions/qwerr"
@@ -31,7 +32,15 @@ func main() {
 		fmt.Println(q2044.CountMaxOrSubsets([]int{2, 2, 2}))
 		fmt.Println(q2044.CountMaxOrSubsets([]int{3, 2, 1, 5}))
 		fmt.Println(q2044.CountMaxOrSubsets([]int{10}))
-
+	case q1545.QUESTION_NO:
+		fmt.Println(q1545.FindKthBit(4, 7))
+		fmt.Println(q1545.FindKthBit(4, 8))
+		fmt.Println(q1545.FindKthBit(4, 9))
+		fmt.Println(q1545.FindKthBit(4, 10))
+		fmt.Println(q1545.FindKthBit(4, 11))
+		fmt.Println(q1545.FindKthBit(4, 12))
+		fmt.Println(q1545.FindKthBit(4, 13))
+		fmt.Println(q1545.FindKthBit(4, 14))
 	default:
 		log.Fatal("You fucked up chicken.")
 	}
