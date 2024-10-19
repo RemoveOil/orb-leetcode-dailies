@@ -1,0 +1,6 @@
+{
+    
+    "go.inlayHints.rangeVariableTypes":true,
+    "go.inlayHints.compositeLiteralFields": true
+
+}
