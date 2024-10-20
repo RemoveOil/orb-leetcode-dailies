@@ -5,10 +5,10 @@ import (
 	"flag"
 	"fmt"
 	"log"
+	q650 "solutions/0650-maximum-swap"
 	q1405 "solutions/1405-longest-happy-string"
 	q1545 "solutions/1545-kth-bit"
 	q2044 "solutions/2044-count-max-bitwise-subsets"
-	q650 "solutions/650-maximum-swap"
 	"solutions/qwerr"
 	"strconv"
 )
