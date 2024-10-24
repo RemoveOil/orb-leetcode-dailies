@@ -2,13 +2,10 @@ package kthlargestlevelsum
 
 import (
 	"slices"
+	"solutions/objects"
 )
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+type TreeNode = objects.TreeNode
 
 // Make tree nodes generic & write a parser for them.
 func kthLargestLevelSum(root *TreeNode, k int) int64 {
